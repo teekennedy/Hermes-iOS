@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.io.hermesmobile.HermesMobile</string>
+		<string>group.net.missingtoken.HermesMobile</string>
 	</array>
 </dict>
 </plist>

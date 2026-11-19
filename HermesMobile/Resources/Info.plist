@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>APP_GROUP_ID</key>
+	<string>group.net.missingtoken.HermesMobile</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -20,13 +22,13 @@
 	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Hermes uses the camera to capture photos and documents for analysis.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Hermes uses the camera to capture photos and documents for analysis.</string>
 	<key>NSHealthShareUsageDescription</key>
 	<string>Hermes reads your health data to offer personalized wellness insights.</string>
 	<key>NSHealthUpdateUsageDescription</key>

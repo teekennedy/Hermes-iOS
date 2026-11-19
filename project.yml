@@ -2,7 +2,7 @@ name: HermesMobile
 options:
   # Public-safe defaults. Replace locally if you regenerate the project
   # for a private deployment with your own signing/bundle identifiers.
-  bundleIdPrefix: io.hermesmobile
+  bundleIdPrefix: net.missingtoken
   deploymentTarget:
     iOS: "26.0"
   xcodeVersion: "26.3"
@@ -40,7 +40,7 @@ targets:
         com.apple.developer.healthkit.access: []
         com.apple.developer.healthkit.background-delivery: true
         com.apple.security.application-groups:
-          - group.io.hermesmobile.HermesMobile
+          - group.net.missingtoken.HermesMobile
     sources:
       - path: HermesMobile
         excludes:
@@ -53,11 +53,11 @@ targets:
       - target: HermesMobileWidgets
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: io.hermesmobile.HermesMobile
+        PRODUCT_BUNDLE_IDENTIFIER: net.missingtoken.HermesMobile
         PRODUCT_NAME: HermesMobile
         MARKETING_VERSION: "1.0.0"
         CURRENT_PROJECT_VERSION: "1"
-        DEVELOPMENT_TEAM: ""
+        DEVELOPMENT_TEAM: JJXRW8N6BH
         CODE_SIGN_STYLE: Automatic
         INFOPLIST_KEY_CFBundleDisplayName: HermesMobile
     info:
@@ -106,18 +106,18 @@ targets:
       path: HermesMobileWidgets/HermesMobileWidgets.entitlements
       properties:
         com.apple.security.application-groups:
-          - group.io.hermesmobile.HermesMobile
+          - group.net.missingtoken.HermesMobile
     info:
       path: HermesMobileWidgets/Info.plist
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: io.hermesmobile.HermesMobile.Widgets
+        PRODUCT_BUNDLE_IDENTIFIER: net.missingtoken.HermesMobile.Widgets
         PRODUCT_NAME: HermesMobileWidgets
         MARKETING_VERSION: "1.0.0"
         CURRENT_PROJECT_VERSION: "1"
         SWIFT_VERSION: "6.2"
         CODE_SIGN_STYLE: Automatic
-        DEVELOPMENT_TEAM: ""
+        DEVELOPMENT_TEAM: JJXRW8N6BH
         TARGETED_DEVICE_FAMILY: "1,2"
 
   HermesMobileTests:
@@ -129,7 +129,7 @@ targets:
       - target: HermesMobile
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: io.hermesmobile.HermesMobile.tests
+        PRODUCT_BUNDLE_IDENTIFIER: net.missingtoken.HermesMobile.tests
         TEST_TARGET_NAME: HermesMobile
         GENERATE_INFOPLIST_FILE: true
 
@@ -142,6 +142,6 @@ targets:
       - target: HermesMobile
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: io.hermesmobile.HermesMobile.uitests
+        PRODUCT_BUNDLE_IDENTIFIER: net.missingtoken.HermesMobile.uitests
         TEST_TARGET_NAME: HermesMobile
         GENERATE_INFOPLIST_FILE: true
